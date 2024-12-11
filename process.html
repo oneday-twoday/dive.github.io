@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover
+        {
+            color: rgb(152, 152, 252);
+        }
+        li
+        {
+            list-style-type: none;
+        }
+
+    /* Header */
+        header
+        {
+            height: 90px;
+            background-color: #2c2a29;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+        }
+        #logo img
+        {
+            max-height: 60px;
+        }
+        nav ul
+        {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        #main_menu li
+        {
+            display: inline;
+            font-size: 16px;
+        }
+        .menus
+        {
+            color: white;
+        }
+
+    /*Main*/
+        main
+        {
+            float: left;
+        }
+
+    /*Aside*/
+        aside
+        {
+            float: left;
+            margin: 80px 60px;
+        }
+        #title
+        {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #title_sub
+        {
+            margin-top: 60px;
+            line-height: 200%;
+        }
+        .number
+        {
+            display: inline;
+            color: blue;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        #blue_box
+        {
+            border: 2px solid blue;
+            border-radius: 20px;
+            width: 280px;
+            height: 160px;
+            padding: 10px;
+            margin: 20px 0 50px 20px;
+        }
+        #text
+        {
+            line-height: 250%;
+        }
+
+        #clear
+        {
+            clear: both;
+        }
+
+    /*Footer*/
+        footer
+        {
+            width: 100%;
+            height: 150px;
+            margin-top: 30px;
+            background-color: #2c2a29;
+        }
+        #footer_box
+        {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        #footer_logo
+        {
+            float: left;
+            margin: 23px 0 0 30px;
+            opacity: 0.8;
+        }
+        #address
+        {
+            float: right;
+            margin: 50px 30px 0 0;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="./Image/logo.png" alt=""></a>
+        </div>
+        <nav id="GNB">
+            <ul id="main_menu">
+                <li class="menus"><a href="process.html" id="current">
+                    자격증 취득 과정</a></li>
+                <li class="menus">|</li>
+                <li class="menus"><a href="gear.html">장비 소개</a></li>
+                <li class="menus">|</li>
+                <li class="menus"><a href="korea_point.html">국내 포인트 추천</a></li>
+                <li class="menus">|</li>
+                <li class="menus"><a href="world_point.html">세계 포인트 추천</a></li>
+                <li class="menus">|</li>
+                <li class="menus"><a href="video.html">스쿠버 영상</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="./Image/process.png" alt="" height="600px">
+    </main>
+
+    <aside>
+        <p id="title">자격증 취득 과정</p>
+        <div id="title_sub">
+            스쿠버 다이빙 자격증은 크게 다음과 같은 레벨을 따릅니다. <br>
+
+            <div id="blue_box">
+                &nbsp <p class="number">1.</p>&nbsp 오픈워터 다이버<br>
+                &nbsp <p class="number">2.</p>&nbsp 어드밴스드 오픈워터 다이버<br>
+                &nbsp <p class="number">3.</p>&nbsp 레스큐 다이버<br>
+                &nbsp <p class="number">4.</p>&nbsp 마스터 다이버<br><br>
+            </div>
+
+            <div id="text">
+            <p class="number">오픈워터 단계</p>에는 아주 기초적이지
+            필수적인 스킬들을 배웁니다. <br>
+            <p class="number">어드밴스드 단계</p>는 레크레이션용 다이빙을
+            즐길 수 있다는 것을 의미합니다. <br>
+            <p class="number">레스큐 다이버</p>는 보다 실력이 뛰어나고 전문적입니다. 
+            동료가 위험에 처했을 때 구조할 수 있는 법을 배웁니다. <br>
+            마지막으로 <p class="number">마스터 다이버</p>는
+            레크레이션 수준에서는 최고 수준의 자격을 갖추고 있습니다. <br><br><br>
+            </div>
+        </div>
+    </aside>
+
+<div id="clear"></div>
+
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <img src="./Image/footerlogo.png" alt="">
+            </div>
+
+        <ul id="address">
+            <li>
+                서울시 중구 충무로4가
+            </li>
+            <li>
+                TEL : 010-1999-0426 Email : leeth426@naver.com
+            </li>
+            <li>
+                COPYRIGHT (c) 마리즈 ALL RIGHTS RESERVED
+            </li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>
