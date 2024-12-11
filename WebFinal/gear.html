@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a
+        {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover
+        {
+            color: rgb(152, 152, 252);
+        }
+        li
+        {
+            list-style-type: none;
+        }
+
+    /* Header */
+        header
+        {
+            height: 90px;
+            background-color: #2c2a29;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+        }
+        #logo img
+        {
+            max-height: 60px;
+        }
+        nav ul
+        {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        #main_menu li
+        {
+            display: inline;
+            font-size: 16px;
+        }
+        .menus
+        {
+            color: white;
+        }
+
+    /*Main*/
+        main
+        {
+            margin: 20px 40px;
+        }
+        table, tr, td
+        {
+            padding: 5px;
+        }
+        .text
+        {
+            text-align: center;
+        }
+        #table_second
+        {
+            padding-top: 130px;
+        }
+        .gear
+        {
+            padding: 30px;
+        }
+        .gear img:hover
+        {
+            opacity: 0.7;
+        }
+        .title
+        {
+            font-weight: bold;
+            font-size: 30px;
+            color: rgb(73, 73, 73);
+            margin-bottom: 20px;
+        }
+
+    /*Footer*/
+        footer
+        {
+            width: 100%;
+            height: 150px;
+            margin-top: 30px;
+            background-color: #2c2a29;
+        }
+        #footer_box
+        {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        #footer_logo
+        {
+            float: left;
+            margin: 23px 0 0 30px;
+            opacity: 0.8;
+        }
+        #address
+        {
+            float: right;
+            margin: 50px 30px 0 0;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="Image/logo.png" alt=""></a>
+        </div>
+        <nav id="GNB">
+            <ul id="main_menu">
+                <li class="menus"><a href="process.html">자격증 취득 과정</a></li>
+                <li class="menus">|</li>
+                <li class="menus"><a href="gear.html" id="current">장비 소개</a></li>
+                <li class="menus">|</li>
+                <li class="menus"><a href="korea_point.html">국내 포인트 추천</a></li>
+                <li class="menus">|</li>
+                <li class="menus"><a href="world_point.html">세계 포인트 추천</a></li>
+                <li class="menus">|</li>
+                <li class="menus"><a href="video.html">스쿠버 영상</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <table>
+                <tr>
+                    <td class="gear">
+                        <img src="Image/respirator.png" alt="">
+                    </td>
+                    <td class="gear">
+                        <img src="Image/bcd.png" alt="">
+                    </td>
+                    <td class="gear">
+                        <img src="Image/mask.png" alt="">
+                    </td>
+                    <td class="gear">
+                        <img src="Image/suit.png" alt="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text">
+                        <p class="title">호흡기</p>
+                        <p class="content">
+                            수중에서 호흡하기 위해 필요한 장비입니다. <br>
+                            주 호흡기와 보조 호흡기로 나뉘고 남은 공기를 <br>
+                            확인할 수 있는 게이지 바와 수심계가 있습니다.
+                        </p>
+                    </td>
+                    <td class="text">
+                        <p class="title">BCD 조끼</p>
+                        <p class="content">
+                            부력을 조절하는 조끼입니다. <br>
+                            공기를 넣고 빼면서 부력을 유지하고 <br>
+                            상승과 하강을 할 수 있습니다.
+                        </p>
+                    </td>
+                    <td class="text">
+                        <p class="title">마스크</p>
+                        <p class="content">
+                            시야를 밝혀주는 장비입니다. <br>
+                            원활한 이퀄라이징을 위해 코 부분은 <br>
+                            말랑하게 만들어졌습니다.
+                        </p>
+                    </td>
+                    <td class="text">
+                        <p class="title">5mm 다이빙 웻슈트</p>
+                        <p class="content">
+                            다이빙 웻슈트는 보통 3mm, 5mm로 나뉩니다. <br>
+                            체온을 유지해주고 부력 담당을 하기도 합니다. <br>
+                            보통의 다이빙에서는 웻슈트를 입습니다.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="table_second">
+            <table>
+                <tr>
+                    <td class="gear">
+                        <img src="Image/boots.png" alt="">
+                    </td>
+                    <td class="gear">
+                        <img src="Image/weight.jpg" alt="">
+                    </td>
+                    <td class="gear">
+                        <img src="Image/computer.png" alt="">
+                    </td>
+                    <td class="gear">
+                        <img src="Image/pin.png" alt="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="text">
+                        <p class="title">다이빙 슈즈</p>
+                        <p class="content">
+                            핀을 신고 다이빙 중에 발목의 부상을 줄여줍니다. <br>
+                            체온유지의 목적으로도 착용합니다.
+                        </p>
+                    </td>
+                    <td class="text">
+                        <p class="title">납 웨이트 & 벨트</p>
+                        <p class="content">
+                            물에서 잘 가라앉기 위해 착용하는 장비입니다. <br>
+                            착용자의 몸무게에 따라 2kg, 4kg, 6kg 등 <br>
+                            다양한 무게를 착용합니다.
+                        </p>
+                    </td>
+                    <td class="text">
+                        <p class="title">다이빙 컴퓨터</p>
+                        <p class="content">
+                            자신의 위치와 수심, 감압 시간 등을 확인하는 <br>
+                            중요한 장비입니다. 손목에 착용하고 <br>
+                            다이빙과 관련된 거의 모든 정보를 확인할 수 있습니다.
+                        </p>
+                    </td>
+                    <td class="text">
+                        <p class="title">다이빙 핀</p>
+                        <p class="content" >
+                            일명 오리발이라고도 부르는 다이빙 핀은 <br>
+                            적은 힘을 들이고도 다이빙을 가능하게 해줍니다. <br>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <img src="Image/footerlogo.png" alt="">
+            </div>
+
+        <ul id="address">
+            <li>
+                서울시 중구 충무로4가
+            </li>
+            <li>
+                TEL : 010-1999-0426 Email : leeth426@naver.com
+            </li>
+            <li>
+                COPYRIGHT (c) 마리즈 ALL RIGHTS RESERVED
+            </li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>
